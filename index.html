@@ -39,7 +39,7 @@
             </div>
 
             <div class="forinput email">
-                <input type="mail" id="email">
+                <input type="email" id="email">
                 <label for="email">Correo electrónico</label>
                 <p class="mensajeerror"></p>
             </div>
@@ -57,7 +57,7 @@
             </div>
 
             <div class="boton">
-                <input type="button" value="Registrarse">
+                <input type="button" value="Registrarse" onclick="enviarformulario()">
             </div>
 
             <p class="mensajeok"></p>
@@ -66,21 +66,21 @@
         
         
         <div class="container sign-in">   
-            <form class="form">
+            <form class="form" id="formu">
                 <h2 class="r">Iniciar sesión</h2>
                 <div class="forinput lol">
-                    <input type="mail" id="lol">
+                    <input type="email" id="lol">
                     <label for="lol">Correo electrónico</label>
                     
                     <div class="forinput pass">
-                        <input type="pass" id="pass">
+                        <input type="password" id="pass">
                         <label for="pass">Contraseña</label>
                         <div class="boton">
-                            <input type="button" value="Iniciar sesión">
+                            <input type="button" value="Iniciar sesión" onclick="logue()">
                         </div>
                     </div>
                 </form>
-                
+        
                 <div class="welcomeback">
                     <div class="mensaje">
                         <h2>Bienvenido de vuelta</h2>
@@ -94,3 +94,5 @@
             
         </body>
         </html>
+
+        

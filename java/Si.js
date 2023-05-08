@@ -4,11 +4,11 @@ const teléfono = document.getElementById("cell");
 const correo = document.getElementById("email");
 const contraseña = document.getElementById("password");
 const contraseña2 = document.getElementById("repeatpassword");
-const form = document.getElementById("sii");
+const forme = document.getElementById("sii");
 const listinputs = document.querySelectorAll(".forinput");
 
 
-form.addEventListener("click", (e) => {
+forme.addEventListener("click", (e) => {
 e.preventDefault();
 let condicion = validacionform();
 if (condicion){
@@ -60,8 +60,8 @@ function mostrarMensaje(claseinput, mensaje){
 }}
 
 function enviarformulario(){
-    form.reset;
-    form.lastElementChild.innerHTML = "Listo!!";
+    forme.reset;
+    forme.lastElementChild.innerHTML = "Registro exitoso!! Por favor inicie sesión";
 }
 
 const $btnSignIn= document.querySelector('.sign-in-button'),
@@ -75,3 +75,18 @@ document.addEventListener('click', e => {
         $signUp.classList.toggle('active')
     }
 });
+
+function logue(){
+    var usuario =document.getElementById("lol").value;
+    var contra=document.getElementById("pass").value;
+    
+    if (usuario=="jzambrano020@gmail.com" && contra=="Uncleanty"){
+        window.location="Bien.html";
+    }
+    else {
+        alert("Datos incorrectos");
+    }
+}
+function yeso(){
+    window.location="Tree.html";
+}

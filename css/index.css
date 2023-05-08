@@ -7,8 +7,8 @@
 }
 
 body {
-   background-image: url("No.jpg");
-   background-position: center;
+    background-image:url("No.jpg");
+    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    height: 100%;
@@ -16,6 +16,7 @@ body {
    align-items: center;
    margin: 0;
    font-family: Georgia;
+   padding: 0;
 
 }
 .container{
@@ -35,7 +36,6 @@ body {
     background-color: white;
     text-align: center;
     margin-bottom: 10%;
-    
 }
 
 .r{
@@ -161,3 +161,286 @@ body {
 .sing-up-button{
     margin: none;
 }
+
+.modal{
+    padding: 40px;
+}
+.modal label{
+    padding: 10px 15px;
+    background-color: rgb(56, 153, 37);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.modal label:hover{
+    background-color: rgba(3, 52, 44, 0.525);
+}
+#bot{
+    display: none;
+}
+.contiene{
+width: 100%;
+height: 100vh;
+position: fixed;
+top: 0; left: 0;
+background-color: rgba(144, 148, 150, 0.8);
+display: none;
+justify-content: center;
+align-items: center;
+z-index: 100;
+}
+#bot:checked ~ .contiene{
+display: flex;
+}
+.conte{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+}
+.conte h2{
+    margin-bottom: 15px;
+}
+.conte p{
+    padding: 15px 0px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+.conte .cerr{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.conte .cerr label{
+    padding: 7px 10px;
+    background-color: aqua;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.conte .cerr label:hover{
+    background-color: rgb(179, 122, 232);
+}
+.cerram{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/* Si pasa */
+
+.modale{
+    padding: 40px;
+}
+.modale label{
+    padding: 10px 15px;
+    background-color: rgb(56, 153, 37);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.modale label:hover{
+    background-color: rgba(3, 52, 44, 0.525);
+}
+#bota{
+    display: none;
+}
+.contienen{
+width: 100%;
+height: 100vh;
+position: fixed;
+top: 0; left: 0;
+background-color: rgba(144, 148, 150, 0.8);
+display: none;
+justify-content: center;
+align-items: center;
+z-index: 100;
+}
+#bota:checked ~ .contienen{
+display: flex;
+}
+.conter{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+}
+.conter h2{
+    margin-bottom: 15px;
+}
+.conter p{
+    padding: 15px 0px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+.conter .cerra{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.conter .cerra label{
+    padding: 7px 10px;
+    background-color: aqua;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.conter .cerra label:hover{
+    background-color: rgb(179, 122, 232);
+}
+.cerramos{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/* no pasa */
+
+.modales{
+    padding: 40px;
+}
+.modales label{
+    padding: 10px 15px;
+    background-color: rgb(56, 153, 37);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.modales label:hover{
+    background-color: rgba(3, 52, 44, 0.525);
+}
+#botas{
+    display: none;
+}
+.contienens{
+width: 100%;
+height: 100vh;
+position: fixed;
+top: 0; left: 0;
+background-color: rgba(144, 148, 150, 0.8);
+display: none;
+justify-content: center;
+align-items: center;
+z-index: 100;
+}
+#botas:checked ~ .contienens{
+display: flex;
+}
+.conters{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+}
+.conters h2{
+    margin-bottom: 15px;
+}
+.conters p{
+    padding: 15px 0px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+.conters .cerras{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.conters .cerras label{
+    padding: 7px 10px;
+    background-color: aqua;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.conters .cerras label:hover{
+    background-color: rgb(179, 122, 232);
+}
+.cerramoss{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+.sar{
+    margin-top: 50px;
+ width: 100%;
+ height: fit-content;
+}
+
+.siemprepasa{
+    margin-top: 15px;
+    margin-right: 5px;
+    display: inline-flex;
+    padding: 5px 3px;
+}
+.siemprepasa p{
+    color: red;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.parla{
+    cursor: pointer;
+    margin: auto;
+    margin-top: 200px;
+    margin-left: 150px;
+    background-color: rgb(56, 153, 37);
+    width: 25%;
+    height: 25%;
+    border-radius: 5px;
+
+}
+    
+    
+.parlado{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    text-align: center;
+}
+.parlado p{
+    font-size: 18px;
+    padding: 5px 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.parlado h3{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px 5px;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.parla:hover{
+    background-color: greenyellow;
+    transition: 1s;
+}
+.rty{
+    margin: auto;
+    margin-bottom: 50%;
+    display: inline-flex;
+    width: 100%;
+    height: 50%;
+}
+
